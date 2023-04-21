@@ -13,6 +13,444 @@ footer links grey: #454245
   font-family: "inter", sans-serif;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #540b51;
+    padding: 2.4rem 2.4rem;
+  }
+
+  #logo {
+    height: auto;
+    width: 10rem;
+  }
+
+  #navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  #navigation-container > ul {
+    display: flex;
+    gap: 4rem;
+    color: white;
+  }
+  #navigation-container > ul > li {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+  }
+  #navigation-container a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  #right-menu {
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #hidden-menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .newIcon {
+    color: white;
+    margin-left: 4rem;
+  }
+
+  #hidden-menu > li > a {
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+
+  #sign-in {
+    color: white;
+    margin-left: 2.4rem;
+  }
+
+  #try-btn {
+    color: #540b51;
+    background-color: white;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.2rem 2.4rem;
+    height: 6.4rem;
+    border-radius: 0.4rem;
+  }
+
+  header {
+    background-color: #540b51;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #cta-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    padding: 2.4rem 2.4rem;
+  }
+
+  #cta-container > h1 {
+    color: white;
+    font-size: 4.8rem;
+    font-weight: 600;
+    text-align: left;
+  }
+  #cta-container > p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 2.4rem;
+  }
+
+  #cta-container > p > span {
+    color: #ecb12f;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  #signup-email-btn {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height: 6.4rem;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 2.4rem;
+    color: #540b51;
+    text-transform: uppercase;
+    padding: 0.8rem 0.8rem;
+  }
+
+  #signup-google-btn {
+    width: 100%;
+    text-align: center;
+    background-color: #4285f4;
+    height: 6.4rem;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 2.4rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.8rem 0.8rem;
+    position: relative;
+  }
+
+  #signup-google-btn > img {
+    background-color: white;
+    width: 3.2rem;
+    height: auto;
+  }
+
+  #product-img {
+    width: 100%;
+  }
+
+  #hero-img {
+    transform: scale(1);
+  }
+
+  #testmonial-section {
+    background-color: #f3eae2;
+    color: #191817;
+    padding: 6.4rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #testmonial-section > p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 1.6em 0;
+  }
+
+  .brand-collections {
+    display: flex;
+    columns: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .brand-collections > img {
+    height: 4rem;
+    width: auto;
+  }
+
+  .value-section-row {
+    display: flex;
+    flex-direction: row;
+    background-color: #f3eae2;
+    padding: 6.4rem 0 rem 0;
+  }
+
+  .value-content {
+    display: flex;
+    flex-direction: column;
+    color: #191817;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .value-content > h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0 0 1.6rem 0;
+  }
+  .value-content > p {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0 0 1.6rem 0;
+    line-height: 160%;
+  }
+
+  .value-content > a {
+    text-decoration: none;
+    color: #2e71a6;
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  #image-left {
+    height: auto;
+    width: 30%;
+  }
+
+  #image-left-2 {
+    height: auto;
+    width: 30%;
+  }
+
+  #image-right {
+    height: auto;
+    width: 30%;
+    margin-left: auto;
+  }
+
+  #sales-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 8rem 2.4rem 6.4rem 2.4rem;
+  }
+
+  #sales-section > h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+  #sales-section > P {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 160%;
+  }
+  .btn-group-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 2.4rem 0;
+  }
+
+  #btn-filled-violet {
+    text-align: center;
+    background-color: #540b51;
+    height: 6.4rem;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    padding: 1.6rem 4.8rem;
+  }
+
+  #btn-lined-violet {
+    text-align: center;
+    height: 6.4rem;
+    border: 1px solid #540b51;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #540b51;
+    text-transform: uppercase;
+    padding: 1.6rem 4.8rem;
+  }
+
+  #numbers-grid {
+    display: flex;
+    flex-direction: row;
+    margin: 6.4rem 0 3.2rem 0;
+    gap: 6.4rem;
+  }
+
+  .number-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .number-list > p > span {
+    font-size: 4rem;
+    color: #540b51;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .number-text {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  #sales-section-inverted {
+    display: flex;
+    flex-direction: column;
+    background-color: #540b51;
+    padding: 6rem 2.4rem;
+  }
+
+  #newGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2.4rem;
+  }
+
+  #sales-section-inverted > h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.6rem;
+    color: white;
+  }
+
+  #btn-filled-white {
+    text-align: center;
+    background-color: white;
+    height: 6.4rem;
+    border-radius: 0.4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2.4rem 0 0 0;
+    color: #540b51;
+    text-transform: uppercase;
+    padding: 0.8rem 4rem;
+  }
+
+  #btn-lined-white {
+    text-align: center;
+    height: 6.4rem;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1.2rem 0 0 0;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.8rem 4rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 2.4rem;
+  }
+
+  #logo-bottom {
+    width: 3.2rem;
+    height: auto;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #ebebeb solid 1px;
+    margin: 2.4rem 0 2.4rem 0;
+    padding: 0 0 2.4rem 0;
+  }
+  .col > ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+  .col > ul > li {
+    color: #454245;
+    padding: 1.2rem 0;
+    font-weight: 500;
+  }
+
+  .col > ul > li > strong {
+    font-weight: 700;
+    color: black;
+  }
+  
+  .download-CTA{
+    color: #2E71A6;
+  }
+
+  #misc-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2.4rem 0 0 0;
+  }
+
+  #misc-links > li {
+    font-weight: 700;
+     font-size: 1.6rem;
+    margin: 1.2rem 0 2.4rem 0;
+  }
+
+  #social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 6.4rem;
+    margin: 1.6rem 0 2.4rem 0;
+  }
+
+  #legal-text {
+    color: #454245;
+    padding: 1.6rem 0 1.6rem 0;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   nav {
     display: flex;
@@ -88,7 +526,7 @@ footer links grey: #454245
     width: 100%;
     text-align: center;
     background-color: white;
-    height: 4.8rem;
+    height: 6.4rem;
     border-radius: 0.4rem;
     font-size: 1.6rem;
     font-weight: 500;
@@ -102,7 +540,7 @@ footer links grey: #454245
     width: 100%;
     text-align: center;
     background-color: #4285f4;
-    height: 4.8rem;
+    height: 6.4rem;
     border-radius: 0.4rem;
     font-size: 1.6rem;
     font-weight: 500;
@@ -166,18 +604,19 @@ footer links grey: #454245
     flex-direction: column;
     padding: 4.8rem 2.4rem;
     color: #191817;
-    width: 50%;
+    width: 60%;
     justify-content: center;
+    margin: auto;
   }
 
   .value-content > h2 {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     font-weight: 700;
     margin: 0 0 1.6rem 0;
   }
 
   .value-content > p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 500;
     margin: 0 0 1.6rem 0;
     line-height: 160%;
@@ -186,7 +625,7 @@ footer links grey: #454245
   .value-content > a {
     text-decoration: none;
     color: #2e71a6;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 600;
   }
 
@@ -196,13 +635,209 @@ footer links grey: #454245
 
   #image-left {
     height: auto;
-    width: 32rem;
+    width: 60%;
+  }
+
+  #image-left-2 {
+    height: auto;
+    width: 60%;
   }
 
   #image-right {
-
+    height: auto;
+    width: 60%;
+    margin-left: auto;
   }
 
+  #sales-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 8rem 2.4rem 6.4rem 2.4rem;
+  }
+
+  #sales-section > h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.6rem;
+  }
+
+  #sales-section > P {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 160%;
+  }
+
+  .btn-group-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 2.4rem 0;
+  }
+
+  #btn-filled-violet {
+    text-align: center;
+    background-color: #540b51;
+    height: 6.4rem;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    padding: 1.6rem 4.8rem;
+  }
+
+  #btn-lined-violet {
+    text-align: center;
+    height: 6.4rem;
+    border: 1px solid #540b51;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #540b51;
+    text-transform: uppercase;
+    padding: 1.6rem 4.8rem;
+  }
+
+  #numbers-grid {
+    display: flex;
+    flex-direction: row;
+    margin: 6.4rem 0 3.2rem 0;
+    gap: 6.4rem;
+  }
+
+  .number-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .number-list > p > span {
+    font-size: 4rem;
+    color: #540b51;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .number-text {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  #sales-section-inverted {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #540b51;
+    padding: 6rem 2.4rem;
+  }
+  #sales-section-inverted > h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.6rem;
+    color: white;
+  }
+
+  #btn-filled-white {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    height: 6.4rem;
+    border-radius: 0.4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2.4rem 0 0 0;
+    color: #540b51;
+    text-transform: uppercase;
+    padding: 0.8rem 0.8rem;
+  }
+
+  #btn-lined-white {
+    width: 100%;
+    text-align: center;
+    height: 6.4rem;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1.2rem 0 0 0;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.8rem 0.8rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 2.4rem;
+  }
+
+  #logo-bottom {
+    width: 3.2rem;
+    height: auto;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #ebebeb solid 1px;
+    margin: 2.4rem 0 2.4rem 0;
+    padding: 0 0 2.4rem 0;
+  }
+  .col > ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+  .col > ul > li {
+    color: #454245;
+    padding: 1.2rem 0;
+    font-weight: 500;
+  }
+
+  .col > ul > li > strong {
+    font-weight: 700;
+    color: black;
+  }
+
+  .download-CTA{
+    color: #2E71A6;
+  }
+
+  #misc-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2.4rem 0 0 0;
+  }
+
+
+  #misc-links > li {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: 1.2rem 0 2.4rem 0;
+  }
+
+  #social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 6.4rem;
+    margin: 1.6rem 0 2.4rem 0;
+  }
+
+  #legal-text {
+    color: #454245;
+    padding: 1.6rem 0 1.6rem 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -275,6 +910,7 @@ footer links grey: #454245
     width: 100%;
     margin-bottom: 2rem;
   }
+
   #signup-email-btn {
     width: 100%;
     text-align: center;
@@ -480,16 +1116,18 @@ footer links grey: #454245
     font-weight: 700;
     text-align: center;
   }
+
   .number-text {
     font-size: 1.6rem;
     font-weight: 600;
     text-align: center;
     width: 40%;
   }
+
   #sales-section-inverted {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     background-color: #540b51;
     padding: 6rem 2.4rem;
   }
@@ -566,6 +1204,10 @@ footer links grey: #454245
     color: black;
   }
 
+  .download-CTA{
+    color: #2E71A6;
+  }
+
   #misc-links {
     display: flex;
     flex-direction: column;
@@ -575,6 +1217,7 @@ footer links grey: #454245
 
   #misc-links > li {
     font-weight: 700;
+    font-size: 1.6rem;
     margin: 1.2rem 0 2.4rem 0;
   }
 

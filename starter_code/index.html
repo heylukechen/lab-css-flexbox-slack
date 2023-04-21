@@ -37,21 +37,21 @@
       </ul>
     </div>
 
-    <div>
+    <div id="right-menu">
       <button>
         <h3 class="fa fa-search fa-2x newIcon"></h3>
       </button>
 
-      <button>
+      <button id="hamburger-menu">
         <h3 class="fa fa-bars fa-2x newIcon"></h3>
       </button>
 
-      <ul hidden>
+      <ul id="hidden-menu" hidden>
         <li>
-          <a href="#">Sign in</a>
+          <a id="sign-in" href="#">Sign in</a>
         </li>
         <li>
-          <a href="#">Try for free</a>
+          <a id="try-btn" href="#">Try for free</a>
         </li>
       </ul>
     </div>
@@ -91,7 +91,8 @@
 
     </section>
 
-    <section class="value-section">
+    <section class="value-section value-section-row">
+
       <div id="image-left">
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
@@ -110,7 +111,7 @@
       </div>
     </section>
 
-    <section class="value-section vale-section-reverse">
+    <section class="value-section value-section-row vale-section-reverse">
       <div class="value-content">
         <h2>Choose how you want to work</h2>
         <p>
@@ -129,8 +130,8 @@
       </div>
     </section>
 
-    <section class="value-section">
-      <div>
+    <section class="value-section value-section-row">
+      <div id="image-left-2">
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
 
@@ -152,12 +153,12 @@
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div class="btn-group">
+      <div class="btn-group btn-group-row">
         <button id="btn-filled-violet">Meet Slack for enterprise</button>
         <button id="btn-lined-violet" id="btn-">Talk to sales</button>
       </div>
 
-      <ul id="nunbers-grid">
+      <ul id="numbers-grid">
         <li class="number-list">
           <p><span>85%</span></p>
           <p class="number-text">
@@ -186,9 +187,11 @@
 
     <section id="sales-section-inverted">
       <h3>Welcome to your new digital HQ</h3>
+      <div id="newGroup">
+        <button id="btn-filled-white">Try for free</button>
+        <button id="btn-lined-white">Talk to sales</button>
+      </div>
 
-      <button id="btn-filled-white">Try for free</button>
-      <button id="btn-lined-white">Talk to sales</button>
     </section>
 
   </main>
@@ -239,7 +242,7 @@
       <li>Cookie Preferences</li>
       <li>Contact Us</li>
       <li>Change Region</li>
-      <li>Download Slack</li>
+      <li class="fa fa-cloud-download-alt download-CTA"> Download Slack</li>
     </ul>
 
     <hr>
