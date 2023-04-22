@@ -97,6 +97,7 @@ footer links grey: #454245
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 1.6rem 3.2rem;
   }
 
   #cta-container {
@@ -104,7 +105,8 @@ footer links grey: #454245
     flex-direction: column;
     align-content: center;
     padding: 2.4rem 2.4rem;
-    margin: 8rem 0;
+    margin: 6.4rem auto;
+    width: 40%;
   }
 
   #cta-container > h1 {
@@ -112,7 +114,7 @@ footer links grey: #454245
     font-size: 7.2rem;
     font-weight: 600;
     text-align: left;
-    width: 60%;
+    width: 80%;
     margin: 0 0 4.8rem 0;
   }
 
@@ -165,6 +167,11 @@ footer links grey: #454245
     color: white;
     padding: 0.8rem 0.8rem;
     position: relative;
+
+    background-image: url("../images/logo-google_new.png");
+    background-repeat: no-repeat;
+    background-position: 1.6rem 1.2rem;
+    background-size: auto 4rem;
   }
 
   #signup-google-btn > img {
@@ -174,25 +181,27 @@ footer links grey: #454245
   }
 
   #product-img {
-    width: 100%;
+    width: 50%;
   }
 
   #hero-img {
     transform: scale(1);
   }
+
   #testmonial-section {
     background-color: #f3eae2;
     color: #191817;
-    padding: 6.4rem 2.4rem;
+    padding: 6.4rem 2.4rem 8rem 2.4rem;
     display: flex;
     flex-direction: column;
   }
+
   #testmonial-section > p {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0 0 1.6em 0;
+    margin: 2.4rem 0 1.6em 0;
   }
 
   .brand-collections {
@@ -200,12 +209,15 @@ footer links grey: #454245
     columns: row;
     align-items: center;
     justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
   }
 
   .brand-collections > img {
     height: 4rem;
     width: auto;
   }
+
   .value-section-row {
     display: flex;
     flex-direction: row;
@@ -227,6 +239,7 @@ footer links grey: #454245
     font-weight: 700;
     margin: 0 0 1.6rem 0;
   }
+
   .value-content > p {
     font-size: 2.4rem;
     font-weight: 500;
@@ -323,7 +336,7 @@ footer links grey: #454245
   }
 
   .number-list > p > span {
-    font-size: 4rem;
+    font-size: 5.6rem;
     color: #540b51;
     font-weight: 700;
     text-align: left;
@@ -333,6 +346,7 @@ footer links grey: #454245
     font-size: 1.6rem;
     font-weight: 600;
     text-align: left;
+    width: 60%;
   }
 
   #sales-section-inverted {
@@ -351,7 +365,7 @@ footer links grey: #454245
   }
 
   #sales-section-inverted > h3 {
-    font-size: 3.2rem;
+    font-size: 4.8rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 1.6rem;
@@ -449,11 +463,6 @@ footer links grey: #454245
     color: #454245;
     padding: 1.6rem 0 1.6rem 0;
   }
-
-
-
-
-
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
@@ -543,6 +552,7 @@ footer links grey: #454245
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 8rem 0;
   }
 
   #cta-container {
@@ -550,11 +560,12 @@ footer links grey: #454245
     flex-direction: column;
     align-content: center;
     padding: 2.4rem 2.4rem;
+    width: 60%;
   }
 
   #cta-container > h1 {
     color: white;
-    font-size: 4.8rem;
+    font-size: 7.2rem;
     font-weight: 600;
     text-align: left;
   }
@@ -605,17 +616,15 @@ footer links grey: #454245
     text-transform: uppercase;
     color: white;
     padding: 0.8rem 0.8rem;
-    position: relative;
-  }
 
-  #signup-google-btn > img {
-    background-color: white;
-    width: 3.2rem;
-    height: auto;
+    background-image: url("../images/logo-google_new.png");
+    background-repeat: no-repeat;
+    background-position: 1.6rem 1.2rem;
+    background-size: auto 4rem;
   }
 
   #product-img {
-    width: 100%;
+    width: 60%;
   }
 
   #hero-img {
@@ -767,7 +776,7 @@ footer links grey: #454245
   }
 
   .number-list > p > span {
-    font-size: 4rem;
+    font-size: 5.6rem;
     color: #540b51;
     font-weight: 700;
     text-align: left;
@@ -942,7 +951,7 @@ footer links grey: #454245
 
   #cta-container > h1 {
     color: white;
-    font-size: 4.8rem;
+    font-size: 7.2rem;
     font-weight: 600;
     text-align: left;
   }
@@ -992,13 +1001,10 @@ footer links grey: #454245
     text-transform: uppercase;
     color: white;
     padding: 0.8rem 0.8rem;
-    position: relative;
-  }
-
-  #signup-google-btn > img {
-    background-color: white;
-    width: 3.2rem;
-    height: auto;
+    background-image: url("../images/logo-google_new.png");
+    background-repeat: no-repeat;
+    background-position: 1.6rem 1.2rem;
+    background-size: auto 4rem;
   }
 
   #product-img {
@@ -1162,7 +1168,7 @@ footer links grey: #454245
   }
 
   .number-list > p > span {
-    font-size: 4rem;
+    font-size: 5.6rem;
     color: #540b51;
     font-weight: 700;
     text-align: left;
@@ -1380,13 +1386,10 @@ footer links grey: #454245
     text-transform: uppercase;
     color: white;
     padding: 0.8rem 0.8rem;
-    position: relative;
-  }
-
-  #signup-google-btn > img {
-    background-color: white;
-    width: 3.2rem;
-    height: auto;
+    background-image: url("../images/logo-google_new.png");
+    background-repeat: no-repeat;
+    background-position: 0.8rem 0.8rem;
+    background-size: auto 3.2rem;
   }
 
   #product-img {
